@@ -50,6 +50,9 @@ library(gapminder)  # load the package gapminder for question 1
 library(mosaic)
 library(dplyr)
 library(gapminder)
+#i) 
+filter (gapminder, lifeExp>60,country %in% c(" 
+United Kingdom", "Vietnam"),year >1990) 
 
 # last R code line
 ```
